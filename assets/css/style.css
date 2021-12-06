@@ -14,12 +14,15 @@ html{
 }
 
 #header{
+    position: fixed;
+    left: 0;
+    right: 0;
     height: 46px;
     background-color: #000;
 }
 
 #nav{
-
+display: inline-block;
 }
 
 #nav li{
@@ -65,9 +68,29 @@ html{
     line-height: 38px;
 
 }
+#nav .nav-arrow-down
+{
+    font-size: 14px;
+}
+
+#header .search-btn:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#header .search-btn{
+    float: right;
+    padding: 0 21px;
+}
+
+#header .search-icon{
+    font-size: 20px;
+    color: #fff;
+    line-height: 46px;
+}
+
 #slider{
-/* height: 400px;
-background-color: rgb(65, 65, 65); */
+margin-top: 46px;
 }
 
 #content{
