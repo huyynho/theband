@@ -1,0 +1,79 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+
+}
+
+#header{
+    height: 46px;
+    background-color: #000;
+}
+
+#nav{
+
+}
+
+#nav li{
+    display: inline-block;
+    position: relative;
+
+}
+#nav>li>a{
+    color: #fff;
+    padding: 0 24px;
+    text-transform: uppercase;
+}
+
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    display: block;
+}
+
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav>li:hover>a,
+#nav .subnav li:hover a{
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav{
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#nav .subnav li{
+    display: block;
+}
+#nav .subnav a{
+    color: #000;
+    padding: 0 16px;
+    line-height: 38px;
+
+}
+#slider{
+/* height: 400px;
+background-color: rgb(65, 65, 65); */
+}
+
+#content{
+
+}
+
+#footer{
+
+}
