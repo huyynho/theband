@@ -20,6 +20,25 @@
 .mt-16{
     margin-top: 16px !important;
 }
+.pull-right{
+    float: right !important;
+}
+
+.btn{
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+    border: none;
+}
+.btn:hover{
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
 .row{
     margin-left: -8px;
     margin-right: -8px;
@@ -48,6 +67,7 @@
 
 html{
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 #main{
@@ -164,9 +184,10 @@ display: inline-block;
 
 #content .content-section{
     width: 800px;
-    padding: 64px 0;
+    padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 #content .section-heading{
@@ -243,8 +264,6 @@ display: inline-block;
 /* Places */
 .places-list{
     margin-top: 32px;
-    margin-bottom: 48px;
-
 }
 
 .place-img{
@@ -274,19 +293,6 @@ display: inline-block;
     line-height: 1.4;
     margin-top: 15px;
 }
-.place-buy-btn{
-    color: #fff;
-    background-color: #000;
-    text-decoration: none;
-    padding: 11px 16px;
-    display: inline-block;
-    margin-top: 15px;
-}
-
-.place-buy-btn:hover{
-    color: #000;
-    background-color: #ccc;
-}
 
 /* ContactForm */
 .contact-content{
@@ -312,14 +318,33 @@ display: inline-block;
     width: 100%;
     outline: none;
 }
-.contact-form .form-submit-btn{
-    font-size: 15px;
-    color:#fff;
-    background-color: #000;
-    padding: 10px 16px;
-    float: right;
+/* Map Section */
+.map-section img{
+    width: 100%;
 }
 
 #footer{
+    padding: 64px 16px;
+    text-align: center;
+}
 
+#footer .socials-list{
+    font-size: 24px;
+
+}
+
+#footer .socials-list a{
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+#footer .copyright a:hover
+#footer .socials-list a:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
+#footer .copyright{
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+#footer .copyright a{
+    color: rgba(0, 0, 0, 0.6);
 }
