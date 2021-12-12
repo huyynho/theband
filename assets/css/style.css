@@ -36,6 +36,7 @@
     margin-top: 15px;
     border: none;
     text-align: center;
+    -webkit-appearance: none;
 }
 .btn:hover{
     color: #000;
